@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.aboutlogin{
+    box-shadow: none !important;
+}
+
+.banner-image {
+  
+    background-image: linear-gradient(to right top, #544f05, #757206, #979808, #b8c10c, #d9eb12);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0 0 , 100% 0 , 100% 70% , 0 100%);
+  }
+
+  .navbar-brand,.offcanvas-title{
+    font-size: 24px;
+    font-family: Lucida Calligraphy;
+    color: black;
+}
+
+.navbar-brand b{
+color:rgb(0, 76, 63);
+font-size: 42px;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 100, 50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler {
+    
+    border:1px solid rgb(0, 76, 63);
+}
+
+
+.space{
+    transition: 0.5s ease;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+    letter-spacing: 0.4px;
+    margin-right: 10px;
+    color: rgb(201, 31, 31);
+}
+.aboutimg{
+    height: 46vh;
+    width: 63%;
+    margin-top:25% ;
+}
+.heading{
+    margin-top:25% ;
+}
+.heading h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-shadow:
+      0 1px #43484a,
+      -1px 0 #cdd2d5,
+      -1px 2px #43484a,
+      -2px 1px #cdd2d5,
+      -2px 3px #43484a;
+}
+
+.heading p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow:0 1px 0 rgba(108, 108, 108, 0.4)
+}
+.heading1 h1{
+    font-family: Palatino Linotype;
+}
+.bulbimg {
+    height: 65vh;
+    width: 90%;
+    margin-top: -13%;
+}
+.plantimgimg{
+    height:55vh;
+    width: 100%;
+    margin-top: -13%;
+}
+.towerimg{
+    height: 60vh;
+    width: 73%;
+   
+}
+.card .cardimg{
+    width: 52%;
+    height: 25vh;
+    border-radius: 50%;
+}
+.show_hide{
+    text-decoration: none;
+}
+.aboutcard1{
+    float: right;
+}
+.aboutcard2{
+    float: left;
+}
+.card-body h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+   }
+  
+/* Shrink navbar */
+.shrink{
+    background-color: rgb(255, 255, 255);
+    transition: 0.9s ease;
+    height: 12vh;
+    box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.74);
+-webkit-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.74);
+-moz-box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.74);
+}
+nav.shrink .navbar-brand{
+    color: rgb(0, 76, 63);
+}
+nav.shrink .navbar-brand b{
+    color: rgb(0, 76, 63);
+}
+
+
+/* mobile width */
+@media screen and (max-width: 67.4375em){
+    .banner-image{
+        height: 122vh;
+    }
+    .aboutcard1{
+        float: none;
+        align-items: center;
+    }
+    .aboutcard2{
+        float: none;
+    }
+    .card .cardimg{
+        width: 52%;
+        height: 17vh;
+        border-radius: 50%;
+    }
+}

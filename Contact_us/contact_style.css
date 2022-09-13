@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 12vh;
+}
+.navbar-dark{
+    background-color: rgb(0, 76, 63);
+}
+.contactnav {
+    color: rgb(240, 236, 236) !important;
+    }
+.navbar-brand,.offcanvas-title{
+        font-size: 30px;
+        font-family: Lucida Calligraphy;
+}
+.navbar-brand b{
+    color:rgb(250, 249, 249);
+    font-size: 42px;
+}
+.logotext{
+    color:rgb(240, 236, 236);
+}
+ul li a{
+    transition: 0.5s ease;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;    
+    /* padding-top: 20px; */
+}
+.aboutlogin{
+    box-shadow: none !important;
+}
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 100, 50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler {
+    
+    border:1px solid rgb(0, 76, 63);
+}
+
+/* Section */
+.contactbody{
+    background-color: rgb(222, 248, 239);
+
+}
+.contactheading{
+    padding: 7% 0 0 0;
+}
+.contactheading h1{
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 900;
+}
+.contactheading p{
+    font-family: 'Radio Canada', sans-serif;
+}
+.call i.fas {
+    
+    border-radius: 60px;
+    padding: 0.8em 0.8em;
+    border: 1px solid rgb(2, 119, 62); 
+   }
+   
+   .call p a{
+       text-decoration: none;
+       color: rgb(18, 18, 18);
+       font-weight: bold;
+       font-size: 18px;
+   }
+   .call .monday{
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+    font-size: 20px;
+   }
+   .contactcard{
+       border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+   }
+.contactcard h2{
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 800;
+
+}
+   form label{
+       font-weight: 600;
+   }
+   .contactbtn{
+       float: right;
+       box-shadow: none !important;
+       font-family: 'Roboto', sans-serif;
+   }
+  
+
+
+   /* mobile width */
+@media screen and (max-width: 67.4375em){
+    nav{
+        height: 9vh;
+    }
+    .call p a{
+        text-decoration: none;
+        color: rgb(18, 18, 18);
+        font-weight: bold;
+        font-size: 14px;
+    }
+}

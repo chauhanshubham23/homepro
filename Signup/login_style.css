@@ -1,0 +1,67 @@
+body{
+    background-color: #eee;
+}
+.card{
+    border-radius: 25px;
+    margin-top: 6%;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+i.fas {
+    font-size: 20px;
+    margin-top: 14px;  
+}
+ form .field1{
+    margin-top:20px;
+    position: relative;
+    margin-left: 20px;
+  }
+   form .field1 input{
+    
+    transition: all 0.3s ease;
+    box-shadow: none !important;
+    font-size:larger;
+    font-family: 'Roboto', sans-serif;
+  }
+   form .field1 input:focus,
+  form .field1 input:valid{
+    border: 2px solid rgb(0, 76, 63);
+  }
+   form .field1 label{
+    position:absolute;
+    top:50%;
+    left:14px;
+    color:#999;
+    font-weight: 400;
+    font-size: 14px;
+    pointer-events: none;
+    transform:translateY(-50%);
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+  }
+  form .field1 input:focus ~ label,
+  form .field1 input:valid ~ label{
+    top:0%;
+    font-size: 13px;   
+    color:rgb(0, 76, 63);
+    background:#fff;
+    transform:translateY(-50%);
+    text-transform: capitalize;
+  }
+ .forpass,.form-check-label{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.loginbtn{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 76, 63);
+    width: 50%;
+    box-shadow: none !important;
+  }
+  .loginbtn:hover{
+    background-color: rgb(7, 94, 79);
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.admin_card{
+    width: 30%;
+    border-radius: 0%;
+    margin-top: 7%;
+    box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+}
+.card-header{
+    background-color: rgb(24, 53, 99);
+    color: aliceblue;
+    
+    
+}
+.card-header h5{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+}
+.input-group input[type = text], input[type = password], input[type = submit],.input-group-text{
+    box-shadow: none !important;
+    border-radius: 0%;
+    font-family: Calisto MT;
+}
+::placeholder{
+    font-family: Calisto MT;
+}
+.adminbtn{
+    background-color: rgb(7, 95, 95);
+    font-family: Calisto MT;
+    border: none;
+    font-size: 17px;
+}
+.adminforget{
+    color: rgb(94, 94, 94);
+    font-family: Calisto MT;
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.bodycolor{
+    background-color: rgba(131, 216, 239, 0.37);
+    
+}
+.prof_heading h1{
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+.prof_heading p{
+    font-size: larger;
+    font-family: 'Fira Sans', sans-serif;
+}
+.prof_img img{
+    height: 20hv;
+    width: 60%;
+}
+.business h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.prof_bg_img{
+    background-image: linear-gradient(to left, rgba(88, 88, 88, 0.502), rgba(24, 23, 23, 0.763)),url('..//Categories/images/hand_shake.jpg');
+   
+    width: 100%;
+    background-repeat: no-repeat;
+   background-size:cover;
+}
+.business h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;    
+}
+.business p{
+    font-size: 19px;
+    color: rgb(210, 212, 213);
+    font-family: 'Fira Sans', sans-serif;
+}
+.prof_card{
+    border-radius: 0%;
+    border: 10px solid grey;
+}
+.card input[type = text], input[type = number], input[type = email], input[type = submit],input[type = file]{
+    border-radius: 0%;
+    box-shadow: none !important;
+    font-family: Modern;
+}
+input[type="file"] {
+    color: rgb(172, 170, 174);
+    font-family: Modern;
+}
+::placeholder{
+    font-family: Modern;
+  }
+  .prof_btn{
+    font-family: 'Fira Sans', sans-serif;
+  }

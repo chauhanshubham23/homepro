@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.loginbtnn{
+    box-shadow: none !important;
+    background-color:rgb(0, 76, 63);
+    border: none;
+}
+
+  .navbar-brand{
+    font-size: 24px;
+    font-family: Lucida Calligraphy;
+    color: rgb(238, 237, 237) !important ;
+}
+.navbar-brand b{
+color:rgb(0, 76, 63) !important;
+font-size: 42px;
+}
+.offcanvas-title{
+    font-size: 24px;
+    font-family: Lucida Calligraphy;
+    color: rgb(0, 0, 0) !important ;
+}
+.offcanvas-title b{
+    color:rgb(0, 76, 63) !important;
+    font-size: 42px;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2820, 100, 50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler {
+    
+    border:1px solid rgb(0, 76, 63);
+}
+.nav-link{
+    transition: 0.5s ease;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+    letter-spacing: 0.4px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255) !important;
+}
+.space{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+    letter-spacing: 0.4px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0) !important;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blueviolet;
+    width: 100%;
+}
+.navbar-brand{
+    color: brown;
+}
+.nav-link{
+    color: rgb(158, 28, 28) !important;
+} */
